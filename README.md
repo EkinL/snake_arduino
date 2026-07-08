@@ -7,7 +7,7 @@ L'ESP32 héberge un serveur **WebSocket** ; on le pilote à distance depuis un
 ```
  ┌────────────────────┐        Wi-Fi (même réseau)        ┌──────────────────────┐
  │   PC / Terminal    │  ──────────────────────────────► │        ESP32          │
- │  snake_client.py   │      ws://<IP_ESP32>:81/          │   getIp.ino           │
+ │  snake_client.py   │      ws://<IP_ESP32>:81/          │   main.ino           │
  │  (touches Z Q S D) │  ◄────────────────────────────── │   OLED 128x64 + jeu   │
  └────────────────────┘         commandes U/D/L/R         └──────────────────────┘
 ```
@@ -26,7 +26,7 @@ qu'envoyer les directions.
   - `SCL` → **GPIO 17**
   - Adresse I²C : `0x3C`
 
-> Ces broches sont définies en haut de [`getIp.ino`](getIp.ino) (`SDA_PIN`, `SCL_PIN`, `OLED_ADDR`) — adaptez-les à votre câblage si besoin.
+> Ces broches sont définies en haut de [`main.ino`](main.ino) (`SDA_PIN`, `SCL_PIN`, `OLED_ADDR`) — adaptez-les à votre câblage si besoin.
 
 ---
 
@@ -48,7 +48,7 @@ Assurez-vous aussi d'avoir le **support des cartes ESP32** (menu *Outils → Typ
 
 ### b. Configurer le Wi-Fi
 
-En haut de [`getIp.ino`](getIp.ino), renseignez **votre** réseau (le PC qui lance le client Python doit être sur **le même réseau**) :
+En haut de [`main.ino`](main.ino), renseignez **votre** réseau (le PC qui lance le client Python doit être sur **le même réseau**) :
 
 ```cpp
 const char* ssid     = "VOTRE_RESEAU";
@@ -144,7 +144,7 @@ Règles du jeu :
 ## 🔁 Intégration continue (CI)
 
 Le workflow [`.github/workflows/arduino-ci.yml`](.github/workflows/arduino-ci.yml)
-**compile automatiquement** `getIp.ino` pour l'ESP32 à chaque *push* / *pull request*
+**compile automatiquement** `main.ino` pour l'ESP32 à chaque *push* / *pull request*
 (via [`arduino-cli`](https://arduino.github.io/arduino-cli/)), afin de garantir que
 le croquis compile toujours.
 
@@ -167,7 +167,7 @@ La CI apparaît ensuite dans l'onglet **Actions** du dépôt.
 
 ```
 snake/
-├── getIp.ino                     # Croquis ESP32 (Snake + OLED + serveur WebSocket)
+├── main.ino                     # Croquis ESP32 (Snake + OLED + serveur WebSocket)
 ├── snake_client.py               # Client Python (manette dans le terminal)
 ├── requirements.txt              # Dépendances Python
 ├── README.md                     # Ce fichier
