@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		388DFC982FFE79D500B5F0FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 388DFC822FFE79D400B5F0FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 388DFC892FFE79D400B5F0FA;
+			remoteInfo = snake_arduino;
+		};
+		388DFCA22FFE79D500B5F0FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 388DFC822FFE79D400B5F0FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 388DFC892FFE79D400B5F0FA;
+			remoteInfo = snake_arduino;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		388DFC8A2FFE79D400B5F0FA /* snake_arduino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snake_arduino.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		388DFC972FFE79D500B5F0FA /* snake_arduinoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snake_arduinoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		388DFCA12FFE79D500B5F0FA /* snake_arduinoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snake_arduinoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		388DFC8C2FFE79D400B5F0FA /* snake_arduino */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = snake_arduino;
+			sourceTree = "<group>";
+		};
+		388DFC9A2FFE79D500B5F0FA /* snake_arduinoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = snake_arduinoTests;
+			sourceTree = "<group>";
+		};
+		388DFCA42FFE79D500B5F0FA /* snake_arduinoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = snake_arduinoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		388DFC872FFE79D400B5F0FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388DFC942FFE79D500B5F0FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388DFC9E2FFE79D500B5F0FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		388DFC812FFE79D400B5F0FA = {
+			isa = PBXGroup;
+			children = (
+				388DFC8C2FFE79D400B5F0FA /* snake_arduino */,
+				388DFC9A2FFE79D500B5F0FA /* snake_arduinoTests */,
+				388DFCA42FFE79D500B5F0FA /* snake_arduinoUITests */,
+				388DFC8B2FFE79D400B5F0FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		388DFC8B2FFE79D400B5F0FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				388DFC8A2FFE79D400B5F0FA /* snake_arduino.app */,
+				388DFC972FFE79D500B5F0FA /* snake_arduinoTests.xctest */,
+				388DFCA12FFE79D500B5F0FA /* snake_arduinoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		388DFC892FFE79D400B5F0FA /* snake_arduino */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 388DFCAB2FFE79D500B5F0FA /* Build configuration list for PBXNativeTarget "snake_arduino" */;
+			buildPhases = (
+				388DFC862FFE79D400B5F0FA /* Sources */,
+				388DFC872FFE79D400B5F0FA /* Frameworks */,
+				388DFC882FFE79D400B5F0FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				388DFC8C2FFE79D400B5F0FA /* snake_arduino */,
+			);
+			name = snake_arduino;
+			packageProductDependencies = (
+			);
+			productName = snake_arduino;
+			productReference = 388DFC8A2FFE79D400B5F0FA /* snake_arduino.app */;
+			productType = "com.apple.product-type.application";
+		};
+		388DFC962FFE79D500B5F0FA /* snake_arduinoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 388DFCAE2FFE79D500B5F0FA /* Build configuration list for PBXNativeTarget "snake_arduinoTests" */;
+			buildPhases = (
+				388DFC932FFE79D500B5F0FA /* Sources */,
+				388DFC942FFE79D500B5F0FA /* Frameworks */,
+				388DFC952FFE79D500B5F0FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				388DFC992FFE79D500B5F0FA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				388DFC9A2FFE79D500B5F0FA /* snake_arduinoTests */,
+			);
+			name = snake_arduinoTests;
+			packageProductDependencies = (
+			);
+			productName = snake_arduinoTests;
+			productReference = 388DFC972FFE79D500B5F0FA /* snake_arduinoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		388DFCA02FFE79D500B5F0FA /* snake_arduinoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 388DFCB12FFE79D500B5F0FA /* Build configuration list for PBXNativeTarget "snake_arduinoUITests" */;
+			buildPhases = (
+				388DFC9D2FFE79D500B5F0FA /* Sources */,
+				388DFC9E2FFE79D500B5F0FA /* Frameworks */,
+				388DFC9F2FFE79D500B5F0FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				388DFCA32FFE79D500B5F0FA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				388DFCA42FFE79D500B5F0FA /* snake_arduinoUITests */,
+			);
+			name = snake_arduinoUITests;
+			packageProductDependencies = (
+			);
+			productName = snake_arduinoUITests;
+			productReference = 388DFCA12FFE79D500B5F0FA /* snake_arduinoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		388DFC822FFE79D400B5F0FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					388DFC892FFE79D400B5F0FA = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					388DFC962FFE79D500B5F0FA = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 388DFC892FFE79D400B5F0FA;
+					};
+					388DFCA02FFE79D500B5F0FA = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 388DFC892FFE79D400B5F0FA;
+					};
+				};
+			};
+			buildConfigurationList = 388DFC852FFE79D400B5F0FA /* Build configuration list for PBXProject "snake_arduino" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 388DFC812FFE79D400B5F0FA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 388DFC8B2FFE79D400B5F0FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				388DFC892FFE79D400B5F0FA /* snake_arduino */,
+				388DFC962FFE79D500B5F0FA /* snake_arduinoTests */,
+				388DFCA02FFE79D500B5F0FA /* snake_arduinoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		388DFC882FFE79D400B5F0FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388DFC952FFE79D500B5F0FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388DFC9F2FFE79D500B5F0FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		388DFC862FFE79D400B5F0FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388DFC932FFE79D500B5F0FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388DFC9D2FFE79D500B5F0FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		388DFC992FFE79D500B5F0FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 388DFC892FFE79D400B5F0FA /* snake_arduino */;
+			targetProxy = 388DFC982FFE79D500B5F0FA /* PBXContainerItemProxy */;
+		};
+		388DFCA32FFE79D500B5F0FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 388DFC892FFE79D400B5F0FA /* snake_arduino */;
+			targetProxy = 388DFCA22FFE79D500B5F0FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		388DFCA92FFE79D500B5F0FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = FCRBLG7A4X;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		388DFCAA2FFE79D500B5F0FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = FCRBLG7A4X;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		388DFCAC2FFE79D500B5F0FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCRBLG7A4X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lilian.snake-arduino";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		388DFCAD2FFE79D500B5F0FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCRBLG7A4X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lilian.snake-arduino";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		388DFCAF2FFE79D500B5F0FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCRBLG7A4X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lilian.snake-arduinoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/snake_arduino.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/snake_arduino";
+			};
+			name = Debug;
+		};
+		388DFCB02FFE79D500B5F0FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCRBLG7A4X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lilian.snake-arduinoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/snake_arduino.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/snake_arduino";
+			};
+			name = Release;
+		};
+		388DFCB22FFE79D500B5F0FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCRBLG7A4X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lilian.snake-arduinoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = snake_arduino;
+			};
+			name = Debug;
+		};
+		388DFCB32FFE79D500B5F0FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FCRBLG7A4X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lilian.snake-arduinoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = snake_arduino;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		388DFC852FFE79D400B5F0FA /* Build configuration list for PBXProject "snake_arduino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388DFCA92FFE79D500B5F0FA /* Debug */,
+				388DFCAA2FFE79D500B5F0FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		388DFCAB2FFE79D500B5F0FA /* Build configuration list for PBXNativeTarget "snake_arduino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388DFCAC2FFE79D500B5F0FA /* Debug */,
+				388DFCAD2FFE79D500B5F0FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		388DFCAE2FFE79D500B5F0FA /* Build configuration list for PBXNativeTarget "snake_arduinoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388DFCAF2FFE79D500B5F0FA /* Debug */,
+				388DFCB02FFE79D500B5F0FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		388DFCB12FFE79D500B5F0FA /* Build configuration list for PBXNativeTarget "snake_arduinoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388DFCB22FFE79D500B5F0FA /* Debug */,
+				388DFCB32FFE79D500B5F0FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 388DFC822FFE79D400B5F0FA /* Project object */;
+}
