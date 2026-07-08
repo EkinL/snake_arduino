@@ -1,0 +1,3 @@
+websocket-client
+# Sous Windows uniquement, décommentez la ligne suivante pour le module curses :
+# windows-curses

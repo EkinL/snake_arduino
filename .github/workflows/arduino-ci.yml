@@ -1,0 +1,55 @@
+name: Arduino CI
+
+# Vérifie que le croquis ESP32 compile bien.
+on:
+  push:
+    paths:
+      - "main.ino"
+      - ".github/workflows/arduino-ci.yml"
+  pull_request:
+    paths:
+      - "main.ino"
+      - ".github/workflows/arduino-ci.yml"
+  workflow_dispatch:
+
+jobs:
+  compile:
+    name: Compilation main.ino (ESP32)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Récupération du code
+        uses: actions/checkout@v4
+
+      - name: Installation d'arduino-cli
+        uses: arduino/setup-arduino-cli@v2
+
+      # Cache du cœur ESP32 + bibliothèques (le cœur ESP32 est volumineux à télécharger)
+      - name: Cache Arduino
+        uses: actions/cache@v4
+        with:
+          path: ~/.arduino15
+          key: arduino-esp32-${{ hashFiles('.github/workflows/arduino-ci.yml') }}
+
+      - name: Installation du cœur ESP32
+        run: |
+          arduino-cli config init
+          arduino-cli config add board_manager.additional_urls \
+            https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+          arduino-cli core update-index
+          arduino-cli core install esp32:esp32
+
+      - name: Installation des bibliothèques
+        run: |
+          arduino-cli lib install "WebSockets"
+          arduino-cli lib install "Adafruit GFX Library"
+          arduino-cli lib install "Adafruit SSD1306"
+
+      # arduino-cli exige que le .ino soit dans un dossier du même nom.
+      - name: Préparation du dossier de croquis
+        run: |
+          mkdir -p build/main
+          cp main.ino build/main/main.ino
+
+      - name: Compilation
+        run: arduino-cli compile --fqbn esp32:esp32:esp32 --warnings default build/main
