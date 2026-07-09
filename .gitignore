@@ -1,1 +1,14 @@
-/.DS_Store
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Xcode — fichiers utilisateur / build (pas à versionner)
+**/xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+*.xcscmblueprint
+*.xccheckout
+
+# Arduino — dossier de build local
+/build/

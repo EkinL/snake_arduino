@@ -4,11 +4,11 @@ name: Arduino CI
 on:
   push:
     paths:
-      - "main.ino"
+      - "main/main.ino"
       - ".github/workflows/arduino-ci.yml"
   pull_request:
     paths:
-      - "main.ino"
+      - "main/main.ino"
       - ".github/workflows/arduino-ci.yml"
   workflow_dispatch:
 
@@ -45,11 +45,5 @@ jobs:
           arduino-cli lib install "Adafruit GFX Library"
           arduino-cli lib install "Adafruit SSD1306"
 
-      # arduino-cli exige que le .ino soit dans un dossier du même nom.
-      - name: Préparation du dossier de croquis
-        run: |
-          mkdir -p build/main
-          cp main.ino build/main/main.ino
-
       - name: Compilation
-        run: arduino-cli compile --fqbn esp32:esp32:esp32 --warnings default build/main
+        run: arduino-cli compile --fqbn esp32:esp32:esp32 --warnings default main
